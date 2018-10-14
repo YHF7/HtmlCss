@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal;}
+li{list-style:none;}
+a{text-decoration:none;color:#666;}
+img{border:none;vertical-align:top;}
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+textarea{resize:none;overflow:auto;}
+body{font-size:12px;font-family:arial;}
+
+/* public */
+.fl { float: left; }
+.fr { float: right; }
+.clear { overflow: hidden; zoom: 1; }
+.wrap { width: 980px; margin: 0 auto; }
+@font-face {  /* 声明字体 */
+font-family: 'icomoon'; src: url('../fonts/icomoon.eot?8qhwk5'); src: url('../fonts/icomoon.eot?8qhwk5#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?8qhwk5') format('truetype'), url('../fonts/icomoon.woff?8qhwk5') format('woff'), url('../fonts/icomoon.svg?8qhwk5#icomoon') format('svg'); font-weight: normal; font-style: normal; }
+
+/*头部--------------------------------------start*/
+header { height: 84px; }
+
+/*广告*/
+.ad { background-color: #444; line-height: 40px; color: #949496; }
+.navigation { height: 44px; line-height: 42px; }
+
+/*导航栏*/
+.top { background-color: #333; z-index: 999; }
+
+/*导航*/
+.navigation_con a { float: left; display: block; height: 44px; line-height: 44px; margin-left: 90px; color: #fff; }
+.navigation_con .zt i { font-family: "icomoon"; font-style: normal; color: #fff; }
+
+/*购物车*/
+.shopping { position: relative; }
+.shopping i { font-family: "icomoon"; font-style: normal; color: #fff; cursor: pointer; }
+.shopping i:hover { color: #ccc; }
+.shopping div { display: none;/*隐藏个人清单部分*/ }
+
+/*点击显示部分*/
+.shopping .abc { height: 10px; border: 1px solid #ccc; border-width: 1px 0 0 1px; width: 10px;	/*旋转45度兼容写法*/ transform: rotate(45deg); -ms-transform: rotate(45deg); /* IE 9 */ -webkit-transform: rotate(45deg); /* Safari and Chrome */ position: absolute; bottom: -10px; background: #fff; overflow: hidden; z-index: 3; }
+.shopping .personal { width: 288px; height: 307px; border: 1px solid #ccc; position: absolute; bottom: -311px; left: -142px; z-index: 2; background: #fff; padding: 0 20px; box-sizing: border-box; }
+.personal_top { color: #888; padding: 35px 0; margin: 0; line-height: 17px; text-align: center; }
+.personal_btn li { border-top: 1px solid #ccc; line-height: 42px; }
+.personal_btn li a,
+.copyright_top a { padding: 0 30px; color: #0070c9; }
+.personal_btn li a:hover,
+.copyright_top a:hover,
+.copyright_btn a:hover { text-decoration: underline; }
+.personal_btn li i { font-family: "icomoon"; font-style: normal; color: #0070c9; }
+
+/*头部--------------------------------------end*/
+
+/*底部版权部分----------------------------------start*/
+footer { width: 100%; background-color: #f2f2f2; height: 443px; box-sizing: border-box; }
+.help { position: relative; height: 354px; padding-top: 42px; box-sizing: border-box;/*盒子模型*/ }
+.help dl { width: 195px; float: left; }
+.help .ff { position: absolute; top: 130px; left: 390px; }
+.help .fff { position: absolute; top: 154px; left: 585px; }
+.help dt { height: 24px; color: #000; }
+.help dd { height: 24px; }
+.copyright_top { height: 20px; border-bottom: 1px solid #ccc; color: #666; margin-bottom: 10px; }
+.copyright_top a { padding: 0; }
+.copyright_btn { color: #666; position: relative; }
+.copyright_btn p { margin-top: 10px; }
+.copyright_btn ul { margin-left: 33px; }
+.copyright_btn li { height: 15px; line-height: 15px; padding: 0 10px; float: left; border-right: 1px solid #ccc; }
+.copyright_btn li:nth-child(5) { border-width: 0; }
+.copyright_btn_b { position: absolute; bottom: -40px; }
+.copyright_btn .fr { padding-left: 21px; line-height: 16px; background: url(../images/16.png) no-repeat; }
+
+/*底部版权部分----------------------------------end*/

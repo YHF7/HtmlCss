@@ -1,0 +1,334 @@
+img {
+	/*display: block;*/
+	vertical-align: top;
+}
+.w {/*版心公共类*/
+	width: 1190px;/*京东的版心是1190*/
+	margin: 0 auto;
+}
+.fl {/*浮动的公共类*/
+	float: left;
+}
+.fr {
+	float: right;
+}
+a {
+	text-decoration: none;/*取消下划线*/
+	font-size: 12px;
+	color: #999;
+}
+a:hover {
+	color: #c81623;
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	background-color: #f6f6f6;
+}
+input ,button {
+	border: 0;
+	outline: none;/*取消轮廓边框*/
+}
+.f10 {
+	color: #f10215!important;
+}
+@font-face {  /* 声明字体 */
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8qhwk5');
+  src:  url('../fonts/icomoon.eot?8qhwk5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?8qhwk5') format('truetype'),
+    url('../fonts/icomoon.woff?8qhwk5') format('woff'),
+    url('../fonts/icomoon.svg?8qhwk5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*头部-----------------------start*/
+header {
+	height: 80px;
+	background-color: #020000;
+}
+/*头部-----------------------end*/
+
+/*快速导航栏--------------------start*/
+.shortcut {
+	background-color: #e3e4e5;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	line-height: 30px;
+	color: #999;
+}
+.city {
+	margin-left: 200px;
+}
+.shortcut li {
+	float: left;
+}
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #ccc;
+}
+.space {/*小竖线*/
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 10px 12px 0;
+}
+.mobile {
+	position: relative;
+}
+.mobile img {
+	position: absolute;
+	top: 24px;
+	left: -3px;
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+/*快速导航栏--------------------end*/
+
+/*中间头部---------------------start*/
+.middle {
+	height: 140px;
+	position: relative;
+}
+/*logo*/
+.logo {
+	position: absolute;
+	top: -30px;
+	left: 0;
+	box-shadow: 0 -10px 10px rgba(0,0,0,.3);
+}
+.logo a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: #fff url(../images/logo.png) no-repeat;
+}
+/*搜索框*/
+.form {
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+.form input {
+	width: 495px;
+	height: 33px;
+	border: 1px solid #f10215;
+	float: left;
+	font-size: 14px;
+	padding-left: 3px;
+}
+.form button {
+	width: 50px;
+	height: 35px;
+	background-color: #f10215;
+	float: left;
+}
+.form button i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #fff;
+}
+/*购物车*/
+.shopCar {
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 25px;
+	right: 95px;
+	background-color: #fff;
+	text-align: center;
+	color: #f10215;
+}
+.shopCar i {
+	font-family: 'icomoon';
+	margin-right: 5px;
+	font-style: normal;
+}
+.shopCar span {
+	width: 15px;
+	height: 15px;
+	background-color: #f10215;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 15px;
+}
+/*关键词*/
+.hotwords {
+	position: absolute;
+	top: 68px;
+	left: 320px;
+}
+/*小导航部分*/
+.navitems {
+	width: 770px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+}
+.navitems li {
+	float: left;
+	margin-left: 30px;
+}
+.navitems li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #555;
+}
+.navitems li a:hover {
+	color: #f10215;
+}
+.navitems .space {
+	margin: 15px -15px 0 15px;
+}
+/*超级日*/
+.super {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+/*中间头部---------------------end*/
+
+/*页面底部------------------start*/
+footer {
+	margin-top: 35px;
+	height: 500px;
+	background-color: #eaeaea;
+}
+footer a {
+	color: #666;
+}
+/*服务*/
+.service {
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+.service ul li {
+	width: 297px;
+	height: 43px;
+	float: left;
+	position: relative;
+	line-height: 43px;
+}
+.service li h5 {
+	position: absolute;
+	top: 0;
+	left: 38px;
+	width: 36px;
+	height: 43px;
+	background: url(../images/ico.png) no-repeat;
+	text-indent: -999em;
+}
+.service  li:nth-child(2) h5 {
+	background-position: 0 -43px;
+}
+.service  li:nth-child(3) h5 {
+	background-position: 0 -86px;
+}
+.service  li:nth-child(4) h5 {
+	background-position: bottom;
+}
+.service li p {
+	font-weight: 700;
+	margin-left: 82px;
+}
+/*帮助模块*/
+/*左*/
+.help {
+	height: 200px;
+	padding-top: 25px;
+	box-sizing: border-box;/*盒子模型*/
+}
+.help dl {
+	width: 192px;
+	float: left;
+}
+.help dt,
+.coverage h5 {
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.help dd {
+	height: 22px;
+}
+/*右*/
+.coverage {
+	width: 200px;
+	height: 150px;
+	background: url(../images/ico_footer.png) no-repeat;
+}
+.coverage h5 {
+	padding-left: 35px;
+}
+.coverage p {
+	width: 180px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666;
+}
+.coverage a {
+	display: block;
+	margin-top: 5px;
+	width: 180px;
+	text-align: right;
+}
+/*版权*/
+.copyright {
+	border-top: 1px solid #dedede;
+	padding-top: 20px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.copyright span {
+	margin: 0 10px;
+}
+.copyright a {
+	color: #666;
+}
+.copyright div {
+	margin-top: 20px;
+}
+.copyright div p {
+	line-height: 22px;
+}
+.foot-icon a {
+	display: inline-block;
+	width: 103px;
+	height: 33px;
+	background: url(../images/ico_footer.png) no-repeat 0 -150px;
+	margin: 20px 4px 0;
+	/* 行内块可以用 text-align: center 来实现居中 */
+}
+.foot-icon a:nth-child(2) {
+	background-position: -103px  -150px;
+}
+.foot-icon a:nth-child(3) {
+	background-position: 0  -183px;
+}.foot-icon a:nth-child(4) {
+	background-position: -103px  -183px;
+}.foot-icon a:nth-child(5) {
+	background-position: 0  -216px;
+}.foot-icon a:nth-child(6) {
+	background-position: -103px  -216px;
+}
+/*页面底部------------------end*/

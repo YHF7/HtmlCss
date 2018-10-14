@@ -1,0 +1,176 @@
+/*样式*/
+
+/*css初始化-----------------------------------------*/
+* { margin: 0; padding: 0;/*清除内外边距*/ }
+ul {	/*去掉li的点*/
+list-style: none; }
+.clearfix:before,
+.clearfix:after {	/*清除浮动*/
+display: table; content: ""; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+a { color: #050505; text-decoration: none; }
+input { border: 0;/*所有的表单边框为0*/ box-sizing: border-box;/*css3盒子模型 border 和 padding 都包含在width里面去*/ }
+.contaioner {	/*因为我们的版心宽度1200 都要居中对齐 我们就声明一个公共类*/
+width: 1200px; margin: 0 auto; }
+
+/*css初始化-----------------------------------------*/
+
+/*页面头部分-----------------------------------------*/
+body { background-color: #f3f5f7;/*整个页面的背景色*/ }
+header { height: 100px; overflow: hidden;/*防止外边距合并的问题*/ }
+nav { width: 1366px; height: 42px; margin: 26px auto 0;/*盒子居中对齐*/ }
+
+/*logo部分-----------------------------------------*/
+.logo { float: left; width: 199px; height: 46px; background: url(images/sprite.png) no-repeat; }
+
+/*logo部分-----------------------------------------*/
+
+/*导航栏部分-----------------------------------------*/
+.navbar { height: 42px; float: left; line-height: 42px;/*行高会继承*/ margin-left: 50px; }
+.navbar li { float: left; }
+.navbar li a { padding: 0 10px;/*上下0 左右8像素*/ display: block;/*a是行内元素，给高需要转换块元素*/ height: 42px; }
+.navbar li a:hover { border-bottom: 2px solid #00a4ff;/*鼠标放入有底边框*/ }
+
+/*导航栏部分-----------------------------------------*/
+
+/*搜索框-----------------------------------------*/
+.search { width: 410px; height: 38px; border: 1px solid #00a4ff; float: right; }
+.search input[type=text] {	/*属性选择器 typr 为 text的文本框*/
+background-color: #f3f5f7; width: 360px; height: 38px; padding-left: 20px; float: left; }
+.search input[type=submit] { width: 50px; height: 38px; background: #00a4ff url(images/search_06.png) no-repeat center; float: left; }
+
+/*搜索框-----------------------------------------*/
+
+/*个人中心---------------------------------------*/
+.personal { float: right; height: 42px; line-height: 42px; margin: 0 15px 0 35px; }
+.personal img { margin: 0 8px; vertical-align: middle; }
+
+/*个人中心---------------------------------------*/
+
+/*banner部分------------------------------------*/
+
+/*左侧导航栏*/
+.banner { height: 420px; background-color: #1c036c; position: relative; }
+.banner-in { height: 420px; background: url(images/banner_03.png) no-repeat; }
+.slidebar { height: 420px; width: 190px; background: rgba(0, 0, 0, .4); /*盒子半透明*/ float: left; }
+.slidebar li a { color: #fff; font-size: 14px; padding: 0 20px; display: block; line-height: 45px; /*单行垂直居中给了行高可以不用给高度*/ }
+.slidebar li a:hover { color: #00a4ff; }
+.slidebar a span { float: right; font-family: arial;/*一般符合都用这个字体*/ }
+
+/*小课表部分*/
+.timetable { float: right; width: 230px; height: 300px; background-color: #fff; margin-top: 50px; }
+.timetable dt { line-height: 50px; background-color: #9bceea; text-align: center; color: #fff; font-weight: 700; letter-spacing: 2px;/*设置字间距*/ margin-bottom: 5px; }
+.timetable dd { width: 193px; height: 60px; margin: 0 auto; border-bottom: 1px solid #ccc; padding-top: 12px; box-sizing: border-box; }
+.timetable dd:last-child {	/*结构伪类选择器 选择最后的一个孩子*/
+border: 0; }
+.timetable dd h4 { font-size: 16px; font-weight: normal;/*让粗体不变粗*/ color: #4e4e4e; }
+.timetable dd p { color: #a5a5a5; font-size: 14px; }
+.timetable dd a { line-height: 38px; border: 2px solid #00a4ff; display: block; text-align: center; color: #00a4ff; font-weight: 700;/*文件加粗不要给单位*/ transition: all .5s; }
+.timetable dd a:hover {	/*自己添加*/
+background-color: #00a4ff; color: #fff; }
+
+/*小点*/
+.circle { width: 180px; height: 22px; position: absolute; bottom: 10px; left: 50%; margin-left: -90px; }
+.circle li { float: left; width: 12px; height: 12px; background: rgba(255, 255, 255, .3); margin: 6px 8px; border-radius: 6px; cursor: pointer; }
+.circle .current { width: 19px; background-color: #fff; }
+
+/*banner部分------------------------------------*/
+
+/*精品推荐---------------------------------------*/
+.recommend { line-height: 60px; background-color: #fff; margin-top: 8px; box-shadow: 0 2px 2px rgba(0, 0, 0, .2);/*盒子阴影 水平位置 垂直位置 模糊距离 影子颜色*/ }
+.recommend a { padding: 0 30px; border-right: 1px solid #ccc; }
+.recommend a:first-child { color: #00a4ff; }
+.recommend a:nth-child(7) { border: 0; }
+.recommend a:last-child { float: right; color: #00a4ff; border: 0; font-size: 14px; }
+.recommend a:hover { color: #00a4ff; }
+
+/*精品推荐---------------------------------------*/
+
+/*精品推荐大模块----------------------------------*/
+
+/*头部*/
+.recom-products { margin-top: 34px; margin-bottom: 40px; }
+.recom-hd { height: 40px; }
+.recom-hd h4 { float: left; font-weight: normal; color: #494949; }
+.recom-hd a { float: right; margin-top: 10px; margin-right: 30px; font-size: 14px; color: #a5a5a5; }
+.recom-hd a:hover { color: #00a4ff; }
+
+/*主体*/
+.recom-bd li { width: 228px; height: 270px; background-color: #fff; /*overflow: hidden;*/ float: left; margin-right: 15px; margin-top: 15px; position: relative; }
+.recom-bd li:nth-child(5n) { margin-right: 0; }
+.recom-bd li:hover { margin-top: 10px; transition: all .2s; box-shadow: 0 4px 5px rgba(0, 0, 0, .2); }
+.over { overflow: hidden; }
+.hot { width: 40px; height: 23px; background-color: pink; position: absolute; right: -5px; top: 0; background: url(images/sprite.png) no-repeat 0 -85px; }
+.recom-bd h5,
+.recom-bd p { margin-top: 12px; padding: 0 20px 0 24px; }
+.recom-bd h5 { font-size: 14px; line-height: 22px; font-weight: normal; }
+.recom-bd li p { font-size: 12px; color: #999; }
+.recom-bd li span { color: #ff7c2d; }
+
+/*精品推荐大模块----------------------------------*/
+
+/*编程入门---------------------------------------*/
+.recom-programming { height: 435px; margin-bottom: 40px; position: relative; }
+
+/*头部*/
+.prog-hd { height: 41px; text-align: center; }
+.prog-hd a { font-size: 15px; color: #a5a5a5; margin: 0 35px; margin-top: 5px; }
+.prog-hd .rm { color: #20affe; }
+.prog-hd h4 { float: left; font-weight: normal; color: #494949; }
+.prog-hd a:last-child { float: right; margin-right: 30px; margin-top: 0; font-size: 14px; color: #a5a5a5; }
+
+/*内容-左*/
+.prog-bd { height: 500px; }
+.prog-bd .prog-l { width: 228px; height: 392px; float: left; }
+
+/*内容-右*/
+.prog-bd .prog-r { width: 958px; height: 390px; float: right; }
+.prog-bd .prog-r .cl { margin-bottom: 23px; }
+.prog-bd ul li { width: 228px; height: 270px; background-color: #fff; overflow: hidden; float: left; margin-right: 15px; margin-top: -6px; }
+.prog-bd li:nth-child(4) { margin-right: 0; }
+.prog-bd h5,
+.prog-bd p { padding: 0 20px 0 24px; }
+.prog-bd h5 { font-size: 14px; line-height: 22px; font-weight: normal; margin-top: 23px; }
+.prog-bd li p { margin-bottom: -6px; font-size: 12px; color: #999; position: absolute; bottom: 23px; }
+.prog-bd li span { color: #ff7c2d; }
+
+/*编程入门---------------------------------------*/
+
+/*机器学习工程师----------------------------------*/
+.recom-machine { margin-bottom: 40px; position: relative; }
+.recom-machine .prog-hd h4 { float: left; font-weight: normal; color: #494949; }
+.recom-machine .recom-bd h5 { margin-top: 23px; }
+.recom-machine .recom-bd p { position: absolute; bottom: 23px; }
+
+/*机器学习工程师----------------------------------*/
+
+/*牛人推荐---------------------------------------*/
+.recom-nr li { width: 228px; height: 320px; }
+.recom-nr .d { width: 228px; height: 320px; position: relative; }
+.recom-nr .d div { width: 228px; height: 120px; background-color: rgba(0, 0, 0, .3); position: absolute; bottom: 0; }
+.recom-nr .d .dd { height: 100%; position: absolute; bottom: 0; }
+.recom-nr .recom-bd .d .dd p:first-child { position: absolute; bottom: 170px; }
+.recom-nr .d .dd p:nth-child(2) { position: absolute; bottom: 150px; }
+.recom-nr .d .dd p:last-child { position: absolute; bottom: 20px; }
+.recom-nr .d span { font-size: 18px; color: #fff; }
+.recom-nr .d p { font-size: 12px; color: #fff; }
+.recom-nr .recom-bd li:nth-child(6) { width: 470px; }
+.recom-nr .recom-bd li:last-child { margin-right: 0; }
+.recom-nr .d .over { height: 100%; }
+
+/*牛人推荐---------------------------------------*/
+
+/*页面底部---------------------------------------*/
+footer { height: 272px; background-color: #fff; margin-top: 100px; }
+.footer-in { padding-top: 30px; }
+.footer-l { float: left; }
+.footer-l p { font-size: 12px; line-height: 18px; color: #999; margin-top: 20px; }
+.footer-l a { display: block; width: 118px; line-height: 33px; border: 2px solid #00a4ff; text-align: center; font-size: 16px; margin-top: 15px; }
+.footer-r { float: right; }
+.footer-r dl { float: left; width: 225px; }
+.footer-r dt { height: 31px; font-size: 16px; color: #333; }
+.footer-r dd { font-size: 12px; height: 22px; }
+.footer-r dd a:hover { color: #00a4ff; text-decoration: underline; }
+
+/*页面底部---------------------------------------*/

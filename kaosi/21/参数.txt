@@ -1,0 +1,127 @@
+#top-bg:背景：bg-color:#7bdaae
+              image:top_bg
+              repeat:x
+        方框：width:100%
+
+#container:方框：width:900
+                 h:800
+                 margin:right:auto
+                        left:auto
+
+#header: 方框：width:100%
+               height:280
+
+#header-logo:类型：font-family:黑体
+                   font-size：20
+                   font-weight:bold
+                   color:#678275
+             方框：width:500
+                   height:20
+                   float:left
+                   margin:top:28
+                          left:15
+
+#header-logo-span:类型：font-size：11
+                        font-weight:normal 
+                  方框：left:10
+
+#header-bottom:背景：image:header-bottom-bg
+                     repeat:no
+               方框：width:873
+                     height:216
+                     float:left
+                     margin:top:15
+                            left:15
+
+#menu:方框：width:465
+            height:29
+            float:left
+            margin:top:170
+                   left:23
+
+
+#content:方框：margin:全部相同：15
+               h:500
+
+#content-left:width:250
+              float:left
+              margin:left:10
+
+#section:方框：margin:bottom:15
+
+#section-1-top:类型：font-family:黑体
+                     font-size：14
+                     font-weight:bold
+                     color:#276b45
+               背景：image:header-bottom-bg
+                     repeat:no
+               方框：width:246
+                     height:51
+                    
+
+#section-1-mid:背景：image:section_1_mid_bg
+                     repeat:y
+               方框：width:246
+                     padding:top:5
+                             right:0
+                             bottom:5
+                             left:0 
+                     
+
+#section-1-bottom:背景：image:section_1_bottom_bg
+                        repeat:no
+                  方框：width:246
+                        height:17
+
+#section2:方框：margin:bottom:15
+
+#section-2-top:类型：font-family:黑体
+                     font-size：14
+                     font-weight:bold
+                     color:#276b45
+               背景：image:section_2_top_bg
+                     repeat:no
+               方框：width:246
+                     height:57
+                     
+
+#section-2-mid:背景：image:section_2_mid_bg
+                     repeat:y
+               方框：width:246
+                     padding:top:5
+                             right:0
+                             bottom:5
+                             left:0
+
+#section-2-bottom:背景：image:section_2_bottom_bg
+                        repeat:no
+                 #section-1-bottom:背景：image:section_1_bottom_bg
+                        repeat:no
+                  方框：width:246
+                        height:17
+                        height:18
+
+#content-right:方框：width:580
+                     float:left
+                     padding:全部相同:10
+
+.post：方框：padding:全部相同:5
+                    
+.post-h1:类型;family：Tahoma 
+              size:18
+              color:#588970
+         方框：margin:bottom:15
+
+.post-p:类型;family：Arial
+              size:12
+              color:#46574d
+         方框：margin:bottom:15
+
+.post-img: 方框：margin:left:25
+           边框：style：solid
+                 width：1
+                 color：#333
+
+#footer:类型：size：12
+              color：#7bdaae
+        区块：text-align:center

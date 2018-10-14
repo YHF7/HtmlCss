@@ -1,0 +1,74 @@
+/*重置样式*/
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+var,em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+
+/*主体*/
+/*头部*/
+header {
+	text-align: right;
+	padding: 30px 20px 0 0;
+}
+header a {
+	margin-left: 20px;
+	color: #000;
+	font-weight: 700;
+	text-decoration: underline;
+}
+header span {
+	margin-left: 20px;
+	color: #fff;
+	background-color: #38f;
+	width: 60px;
+	height: 23px;
+	display: inline-block;
+	line-height: 23px;
+	text-align: center;
+}
+/*中部*/
+content {
+	text-align: center;
+}
+.logo img {
+	width: 270px;
+}
+.search .txt {
+	width: 540px;
+	height: 32px;
+	vertical-align: bottom;
+}
+.search .btn {
+	width: 100px;
+	height: 36px;
+	border: none;
+	background: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	/* vertical-align: bottom; */
+}
+/*底部*/
+footer {
+	margin-top: 200px;
+	text-align: center;
+}
+.one a {
+	margin: 0 5px;
+}
+.icon1,
+.icon2 {
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	background: url(../images/icon.png) -600px -96px;
+	vertical-align: middle;
+}
+.icon2 {
+	background-position: -623px -97px;
+}

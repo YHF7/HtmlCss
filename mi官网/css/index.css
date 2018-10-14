@@ -1,0 +1,63 @@
+/*内容部分--------------------------start*/
+content { height: 1000px; }
+.con_top { position: relative; }
+.con_top_logo { height: 55px; width: 55px; background-color: #ff6700; }
+.con_top_logo a { width: 100%; height: 100%; display: block; background: url("../images/mi-logo.png") no-repeat center; }
+.con_top_con { margin-left: 180px; }
+.con_top_con ul li { float: left; }
+.con_top_con li a { display: inline-block; padding: 20px 10px 38px; color: #333; font-size: 16px; }
+.con_top_con li a:hover { color: #ff6700; }
+
+/*搜索框*/
+.form { position: relative; margin-top: 3px; }
+.form input { width: 243px; height: 48px; border: 1px solid #e0e0e0; float: left; }
+.form button { width: 50px; height: 50px; float: left; border: 1px solid #e0e0e0; border-width: 1px 1px 1px 0; background-color: #fff; }
+.form button i { font-family: "icomoon"; font-style: normal; color: #616161; font-weight: 700; }
+.form a { display: inline-block; padding: 3px 4px 4px 5px; background-color: #eee; position: absolute; top: 16px; right: 140px; }
+.form a:nth-child(4) { right: 61px; }
+.form_show ul { display: none; position: absolute; top: 52px; border: 1px solid #ff6700; background-color: #fff; z-index: 999; }
+.form_show li { width: 243px; height: 30px; }
+.form_show li a { box-sizing: border-box; padding: 0 20px; display: block; width: 245px; height: 30px; line-height: 30px; }
+
+/*分类区域*/
+.grid_l { box-sizing: border-box; width: 234px; height: 460px; background-color: #605b57; padding: 20px 0; }
+.grid_l li { }
+.grid_l li a { color: #fff; box-sizing: border-box; display: block; padding: 0 24px 0 30px; width: 234px; line-height: 42px; font-size: 14px; }
+.grid_l li a span { color: #b0adab; }
+.grid_l li a:hover { background-color: #ff6700; }
+.grid_r { width: 992px; height: 460px; position: relative; }
+.grid_r .left,
+.grid_r .right { position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 60px; text-align: center; line-height: 60px; font-size: 30px; color: #d3d0ce; cursor: pointer; z-index: 99; }
+.grid_r .left:hover,
+.grid_r .right:hover { color: #fff; background-color: rgba(0, 0, 0, .3); transition: 1s; }
+.grid_r .left { left: 10px; }
+.grid_r .right { right: 10px; }
+.dd { position: absolute; bottom: 25px; right: 35px; z-index: 99; }
+.dd span { margin-left: 10px; width: 9px; height: 10px; display: inline-block; border-radius: 50%; border: 2px solid #b4afab; background-color: #948d87; }
+.dd .select { background-color: #fff; }
+.inner img { width: 100%; height: 460px; position: absolute; left: 0; top: 0; opacity: 0; }
+.inner { position: relative; }
+.inner .active { opacity: 1; }
+.exposure { margin-top: 14px; }
+.exposure1 { width: 234px; height: 170px; background-color: #5f5750; position: relative; }
+.exposure1 li { float: left; }
+.exposure1 a { display: block; box-sizing: border-box; height: 85px; width: 78px; text-align: center; padding-top: 20px; }
+.exposure1 a:hover { color: #fff; }
+.exposure1 i { display: block; margin: 0 auto; margin-bottom: 10px; height: 25px; font-family: "icomoon"; font-style: normal; colo: b0b0b0; font-size: 30px; }
+.e1,
+.e2,
+.e3 { width: 64px; height: 1px; background-color: #665e57; position: absolute; top: 84px; left: 9px; }
+.e4,
+.e5,
+.e6,
+.e7 { width: 1px; height: 70px; position: absolute; top: 9px; left: 79px; background-color: #665e57; }
+.e2 { left: 85px; }
+.e3 { left: 161px; }
+.e5 { left: 155px; }
+.e6,
+.e7 { top: 91px; }
+.e7 { left: 155px; }
+.exposure2 img { margin-left: 15px; height: 170px; width: 316px; }
+.ex2 img { margin-left: 14px; }
+
+/*内容部分--------------------------end*/

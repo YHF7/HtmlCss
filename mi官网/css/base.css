@@ -1,0 +1,166 @@
+/*头部-------------------------------start*/
+header { margin-bottom: 22px; }
+header a:hover { color: #fff; }
+.top_logp { background: url("../images/top_logo.jpg") no-repeat center; }
+.top_logp a { display: block; width: 100%; height: 120px; }
+.navigation { background-color: #333333; line-height: 40px; z-index: 2; }
+.navigation a { color: #b0b0b0; }
+.nav_fl span,
+.nav_fr .nav_fr_l span { color: #424242; margin: 0 .5em; }
+.vehicle { width: 120px; margin-left: 15px; }
+.vehicle a { position: relative; display: block; line-height: 40px; padding-left: 10px; background-color: #424242; text-align: center; color: #b0b0b0; }
+.vehicle span { margin-left: 4px; }
+.vehicle i { font-family: "icomoon"; font-style: normal; colo: b0b0b0; font-size: 15px; position: absolute; top: 0px; left: 16px; }
+.gouwu { display: none; position: absolute; top: 0px; right: 0px; width: 316px; height: 76px; text-align: center; line-height: 54px; background-color: #fff; box-shadow: 1px 4px 5px rgba(0, 0, 0, .1);/*盒子阴影 水平位置 垂直位置 模糊距离 影子颜色*/ z-index: 3; }
+
+/*头部-------------------------------end*/
+
+
+/*底部-----------------------------start*/
+footer {
+    margin-top: 10px;
+    height: 438px;
+}
+footer a:hover {
+    color: #ff6700;
+}
+
+.fot_t_t {
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.fot_t_t div {
+    width: 243px;
+    height: 100%;
+    float: left;
+    padding: 27px 0;
+}
+.fot_t_t div a {
+    display: block;
+    width: 243px;
+    line-height: 25px;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 16px;
+}
+.fot_t_t .ww {
+    border-width: 0;
+    width: 242px;
+}
+/*帮助模块*/
+/*左*/
+.fot_c {
+    height: 192px;
+    padding-top: 41px;
+    box-sizing: border-box;/*盒子模型*/
+}
+.fot_c dl {
+    width: 160px;
+    float: left;
+}
+.fot_c dt {
+    height: 44px;
+    font-size: 14px;
+    color: #424242;
+}
+.fot_c dd {
+    height: 28px;
+    font-size: 12px;
+    color: #979797;
+}
+
+.fot_c .fr {
+    width: 252px;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+}
+.fot_c_r {
+    height: 112px;
+    width: 100%;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.phone {
+    line-height: 22px;
+    font-size: 22px;
+    color: #ff6700;
+}
+.phone2 {
+    font-size: 12px;
+    margin-top: 7px;
+}
+.phone3 {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.service a {
+    display: block;
+    margin: 0 auto;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+}
+.service a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.fot_f {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    line-height: 17px;
+}
+.fot_f .wrap {
+    position: relative;
+}
+.milogo {
+    margin-top: 30px;
+    width: 56px;
+    height: 57px;
+    background: #ff6b00 url("../images/mi-logo.png") center;
+    float: left;
+}
+.mi {
+    width: 696px;
+    height: 57px;
+    position: absolute;
+    top: 33px;
+    left: 66px;
+}
+.mi ul li a {
+    float: left;
+    color: #757575;
+}
+.mi ul li a:hover {
+    color: #ff6700;
+}
+.mi ul li a span {
+    margin: 0 3px;
+    color: #b0b0bd;
+}
+.beian,
+.beian a {
+    color: #b0b0b0;
+    font-size: 13px;
+}
+.fot_f .fr img {
+    width: 83px;
+    height: 28px;
+    margin-top: 34px;
+}
+.fot_f_f {
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translatex(-50%);
+    margin: 0 auto;
+    width: 267px;
+    height: 19px;
+    background: url("../images/slogan2016.png") no-repeat center 0;
+}
+/*底部-----------------------------end*/

@@ -1,0 +1,56 @@
+/*内容部分----------------------------------------start*/
+
+/*iPhone/iPad*/
+.iPhone,
+.Mac { width: 100%; height: 692px; background: #fafafa; padding-top: 127px; text-align: center; box-sizing: border-box; margin-bottom: 10px; position: relative; }
+.iPhone h1 { font-size: 56px; }
+.iPhone h2 { font-size: 27px; margin-top: 20px; margin-bottom: 22px; }
+.iPhone .gm,
+.Mac .gm,
+.iPhone8 .gm { margin-left: 34px; }
+.iPhone a,
+.Mac a,
+.iPhone8 a { font-size: 18px; height: 18px; color: #0070c9; }
+.iPhone a:hover,
+.Mac a:hover,
+.iPhone8 a:hover { text-decoration: underline; }
+.iPhone_logo { margin: 65px auto; width: 980px; height: 220px; background: url(../images/iphone_x_largetall.jpg) no-repeat; }
+
+/*Mac*/
+.Mac { background-color: #000; padding-top: 300px; }
+.Mac h1 { color: #fff; font-weight: 700; font-size: 56px; margin-bottom: 20px; }
+.Mac a { color: #fff; }
+
+/*内容底部6板块*/
+.con { width: 1454px; margin: 0 auto; padding-left: 12px; box-sizing: border-box; position: relative; }
+.con_con { width: 709px; height: 580px; margin-right: 12px; margin-bottom: 12px; background-color: pink; text-align: center; box-sizing: border-box; padding-top: 58px; color: #fff; }
+.tbb { margin: 0 auto; width: 52px; line-height: 20px; border: 1px solid #fff; color: #fff; border-radius: 2px; margin-bottom: 10px; }
+.iPhone8 h1 { font-size: 42px; }
+.iPhone8 h1:nth-child(3) { margin-bottom: 15px; }
+.iPhone8 a { color: #fff; }
+.watch { color: #000; }
+.macos { color: #fff; }
+.watch h1,
+.macos h1 { font-size: 42px; line-height: 60px; }
+
+/*页面跳转标签*/
+.iPhone .apple,
+.Mac .apple,
+.con .c1 .apple,
+.con .c2 .apple,
+.con .c4 .apple,
+.con .c5 .apple,
+.con .c6 .apple,
+.con .c3 .apple { display: block; width: 100%; height: 692px; position: absolute; top: 0; }
+.con .c1 .apple,
+.con .c2 .apple,
+.con .c4 .apple,
+.con .c5 .apple,
+.con .c6 .apple,
+.con .c3 .apple { width: 709px; height: 580px; }
+.con .c4 .apple,
+.con .c3 .apple { top: 590px; }
+.con .c5 .apple,
+.con .c6 .apple { top: 1180px; }
+
+/*内容部分----------------------------------------end*/

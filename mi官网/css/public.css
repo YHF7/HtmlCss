@@ -1,0 +1,18 @@
+/*页面初始化*/
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal;}
+li{list-style:none;}
+a{text-decoration:none;color:#666;}
+img{border:none;vertical-align:top;}
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+textarea{resize:none;overflow:auto;}
+body{font-size:12px;font-family:arial;}
+
+/* public */
+.fl { float: left; }
+.fr { float: right; }
+.clear { overflow: hidden; zoom: 1; }
+.wrap { width: 1226px; margin: 0 auto; }
+@font-face {  /* 声明字体 */
+    font-family: 'icomoon'; src: url('../fonts/icomoon.eot?8qhwk5'); src: url('../fonts/icomoon.eot?8qhwk5#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?8qhwk5') format('truetype'), url('../fonts/icomoon.woff?8qhwk5') format('woff'), url('../fonts/icomoon.svg?8qhwk5#icomoon') format('svg'); font-weight: normal; font-style: normal; }
