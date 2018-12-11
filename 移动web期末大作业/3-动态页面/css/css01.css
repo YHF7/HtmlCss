@@ -1,0 +1,25 @@
+#select1 {
+    padding: 0 8px;
+}
+
+#yz {
+    width: 60%;
+    float: left;
+}
+
+#yzm {
+    overflow: hidden;
+}
+
+#hqyzm {
+    float: left;
+    margin-left: 20px;
+}
+
+#logo {
+    width: 63%;;
+}
+
+h2 {
+    font-weight: 400;
+}
